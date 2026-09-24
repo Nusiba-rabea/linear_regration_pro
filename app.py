@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib
-model=joblib.load(r"C:\Users\PowerTech\Desktop\pro_linear\salary_model.pkl")
+model = joblib.load("salary_model.pkl")
 st.set_page_config(page_title="Salary Prediction",page_icon="💰")
 
 st.sidebar.title("Navigation")
